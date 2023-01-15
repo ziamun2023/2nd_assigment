@@ -9,7 +9,7 @@ body{
 }
 
                              /* _____________________
-                              # SECTION ONE STYLE #
+                              # SECTION 01 STYLE #
                               _____________________ */
 
 /* NAVIGATION __________________*/
@@ -17,29 +17,26 @@ body{
     background-color: #FFF4E7;
 
    }
+
+   .head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
    .navbar{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 30px;
-
-    
-
-
-   }
+ }
    .company-name{
     padding-right: 520px;
     font-weight: 600;
-font-size: 30px;
-    
+    font-size: 30px;
+     }
 
-   }
-   .navigation{
-
-   }
-   .nav-name{
-
-   }
 
    .navigation ul li a{
     text-decoration: none;
@@ -54,26 +51,19 @@ font-size: 30px;
    .navigation ul{
     display: flex;
    }
-/* NAVIGATION____________________ */
 
 
-.head{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+/* HEADER AND BANNER */
 
-}
-.Head-title{
+   .Head-title{
 
 font-size: 40px;
 font-weight: 500;
 
 padding: 100px 100px 0 100px;
 text-align: center;
-    
+    }
 
-}
 span{
     color: rgb(116, 116, 240);
 }
@@ -141,6 +131,7 @@ font-size: 15px;
     font-size: 25px;
     padding-bottom: 30px;
 }
+
 .text-style{
     color: #131313;
     font-size: 35px;
@@ -158,7 +149,6 @@ font-size: 15px;
     font-size: 15px;
     font-style: normal;
     
-
 }
 .Btn-Explore-two{
     width: 140px;
@@ -170,7 +160,6 @@ font-size: 15px;
     font-weight: 400;
     font-size: 15px;
     
-
 }
 
                             /* _____________________
@@ -182,9 +171,12 @@ font-size: 15px;
     justify-content: center;
     align-items: center;
     
-
-
-
+}
+.Article-two{
+    display: flex;
+    flex-direction: column;
+    
+    
 }
 .article-two-title{
     margin-left: 160px;
@@ -193,30 +185,37 @@ font-size: 15px;
     border-left: 10px solid orange;
     
 }
-.Article-two{
-    display: flex;
-    flex-direction: column;
-    
-    
-}
-
+/* <!-- THERE ARE FOUR DIV(BOX) AS CHILD OF PARENT ARTICLE --> */
 .childs_of_article-two{
 
 }
 .box_for_childs{
+    height: 150px;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.09);
     margin: 15px -15px 20px 140px;
     padding: 2px 35px;
     width: 420px;
+    text-overflow: ellipsis;
+    overflow: auto;
+}
 
+.box_for_childs , .section-three-description{
+    text-overflow: ellipsis;
+    overflow: scroll;
 }
 .child-title{
     padding: 20px 0;
     color: black;
     font-size: 19px;
 
+}
+
+
+.section-three-description{
+    color: #727272;
+    padding-bottom: 10px;
 }
 
 .article_two-Description{
@@ -226,9 +225,7 @@ font-size: 15px;
     margin-top: 50px;
     font-size: 15px;
     font-style: normal;
-    text-overflow: ellipsis;
-    overflow:auto;
-
+    
 }
 .floating-box{
 
@@ -258,16 +255,12 @@ height: 1059px;
 position: relative;
 transform: scale(0.7);
 margin-right: 21px;
-
-
-
-}
-.section-three-photo{
-    
-   
 }
 
-/* section four style */
+
+                            /* _____________________
+                              # SECTION 04 STYLE #
+                              _____________________ */
 
 
 
@@ -277,6 +270,13 @@ margin-right: 21px;
 .article-Description_5th{margin-left: 150px;
     margin-top: 30px;
     color: #727272;
+}
+.achievement{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-column-gap: 70px;
+    margin-left: 250px;
+    margin-top: 50px;
 }
 
 .achievement-items{
@@ -290,6 +290,23 @@ margin-right: 21px;
     border-radius: 7px;
     transition: 0.5s ease-in-out;
    
+}
+
+.icon-size{
+    width: 45.22px;
+height: 45.22px;
+align-items: center;
+}
+
+.achievement-count{
+    color: #424242;
+    transition: 0.5s;
+   
+}
+.achievement-name{
+    color: #424242;
+    transition: 0.5s;
+    
 }
 
 /* animation for sectione 4 */
@@ -308,31 +325,13 @@ margin-right: 21px;
     color: white;
 
 }
-.icon-size{
-    width: 45.22px;
-height: 45.22px;
-align-items: center;
-}
-.achievement-count{
-    color: #424242;
-    transition: 0.5s;
-   
-}
-.achievement-name{
-    color: #424242;
-    transition: 0.5s;
-    
-}
-.achievement{
-    display: grid;
-    grid-template-columns: 150px 150px 150px 150px;
-    grid-column-gap: 70px;
-    margin-left: 250px;
-    margin-top: 50px;
-}
 
 
-/* section five */
+
+                        /* _____________________
+                              # SECTION 04 STYLE #
+                              _____________________ */
+
 .section-five{
     display: flex;
     flex-direction: column;
@@ -341,17 +340,19 @@ align-items: center;
     margin-top: 70px;
     text-align: center;
 }
-.sponsor{}
-.sponsors-description{}
-.brand_names{
-    display: flex;
+.sponsor{
 
-    margin: 30px 40px;
 }
 .sponsors-description{
     color: #424242;
 
 }
+.brand_names{
+    display: flex;
+
+    margin: 30px 40px;
+}
+
 .brands{
     padding: 20px 12px;
     transform: scale(0.6);
@@ -363,6 +364,8 @@ align-items: center;
     display: flex;
     
 }
+
+                          /* FOOTER STYLE */
 
 .footer{
     width: 800px;
@@ -381,9 +384,9 @@ margin-bottom: 100px;
 
 
 
-
-/* PROCESS OF MAKING IT __RESPONSIVE___ */
-
+              /* ====================================================== */
+                     /* PROCESS OF MAKING IT __RESPONSIVE___ */
+           /* ====================================================== */
 @media only screen and (max-width:576px) {
   
     
@@ -426,11 +429,13 @@ font-size: 30px;
   padding: 50px 0;
 }
 /* THIS IS THE END OF MAKIGN SECTION ONE RESPONSIVE */
-/* ____________________________________________________________________________________ */
 
 
 
-/* SECTION TWO - RESPONSIVE */
+
+
+
+           /* _______________SECTION 02-RESPONSIVE_PROCEDURE______________ */
 
 .section-two{
     display: flex;
@@ -462,12 +467,11 @@ font-size: 30px;
 
 }
 .article-1-Title{
-
     color: #727272;
     
     font-weight: 5;
     font-size: 25px;
-   padding: 28px 0 20px 10px;
+    padding: 28px 0 20px 10px;
     text-align: center;
 }
 
@@ -478,10 +482,7 @@ font-size: 30px;
     padding: 5px 10px 20px 30px;
     text-align: center;
     transform: 0.5;
-    
-    
-
-}
+    }
 
 .Article-photos img{
     box-shadow: 10px 5px 5px rgb(42, 38, 38,0.5);
@@ -489,7 +490,9 @@ font-size: 30px;
 /* END OF THE PROCCESS OF MAKIGN SECTION TWO RESPONISVE */
 
 
-/* SECTION-03 RESPONSIVE */
+
+
+/* _________________SECTION-03 RESPONSIVE__________________ */
                            
 .section-three{
     display: flex;
@@ -542,11 +545,11 @@ transform: scale(0.5);
 
 
 }
-/* section three end here */
+/* section three endS here */
 
-/* _______________
-  MAKING RESPONSIVE SECTION FOUR
-  __________________________ */
+
+
+/* _______________SECTION FOUR MAKING RESPONSIVE _____________________ */
 
   .achievement{
     display: grid;
@@ -598,3 +601,4 @@ margin-bottom: 100px;
  transform: scale(0.5);
 }
 }
+        /* THE END OF MAKIGN RESPONSIVE  */
