@@ -226,7 +226,8 @@ font-size: 15px;
     margin-top: 50px;
     font-size: 15px;
     font-style: normal;
-    
+    text-overflow: ellipsis;
+    overflow:auto;
 
 }
 .floating-box{
@@ -235,7 +236,7 @@ font-size: 15px;
 height: 160px;
 background-color: #FF900E;
 position: absolute;
-top: 920px;
+top: 572px;
 left: -60px;
 color: white;
 font-size: 40px;
@@ -287,7 +288,25 @@ margin-right: 21px;
     justify-content: center;
     align-items: center;
     border-radius: 7px;
+    transition: 0.5s ease-in-out;
    
+}
+
+/* animation for sectione 4 */
+
+.achievement-items:hover {
+    transform: scale(1.2);
+    background-color: rgb(241, 102, 15);
+    
+    
+}
+.achievement-items:hover .achievement-count{
+    color: white;
+}
+
+.achievement-items:hover .achievement-name {
+    color: white;
+
 }
 .icon-size{
     width: 45.22px;
@@ -296,10 +315,12 @@ align-items: center;
 }
 .achievement-count{
     color: #424242;
+    transition: 0.5s;
    
 }
 .achievement-name{
     color: #424242;
+    transition: 0.5s;
     
 }
 .achievement{
