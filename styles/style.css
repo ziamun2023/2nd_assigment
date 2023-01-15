@@ -212,7 +212,7 @@ transition: 0.5s;
 }
 
 
-.box_for_childs , .section-three-description{
+ .section-three-description{
     text-overflow: ellipsis;
     overflow: scroll;
 }
