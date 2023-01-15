@@ -84,7 +84,17 @@ border-radius: 8px;
 color: white;
 font-weight: 400;
 font-size: 15px;
+transition: 0.5s;
 
+}
+.Btn-Explore:hover{
+    background-color: #727272;
+    color: white;
+
+}
+.Btn-Explore-two:hover{
+    background-color: #727272;
+    color: white;
 }
 
 /* banner */
@@ -159,6 +169,7 @@ font-size: 15px;
     color: white;
     font-weight: 400;
     font-size: 15px;
+    transition: 0.5s;
     
 }
 
@@ -227,6 +238,8 @@ font-size: 15px;
     font-style: normal;
     
 }
+
+/* "10 year experience" extra floating box moved to middle with hover effect as part of my practice */
 .floating-box{
 
     width: 318px;
@@ -241,6 +254,12 @@ text-align: center;
 padding-top: 50px;
 padding-bottom: -50px;
 box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.09);
+transition: 0.5s;
+
+}
+.floating-box:hover{
+    background-color: #727272;
+    color: white;
 
 
 }
