@@ -212,7 +212,6 @@ transition: 0.5s;
     overflow-y: scroll;
     
 }
-/*NB: when i use (overflow-y) this ellipsis shows a clear y-vertical scroll bar in my browser ,but git hub website shows both vertical and horizontal scroll bar which looks gathering  */
 
 
  .section-three-description{
