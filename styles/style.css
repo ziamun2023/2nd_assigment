@@ -209,7 +209,7 @@ transition: 0.5s;
     padding: 2px 35px;
     width: 420px;
     text-overflow: ellipsis;
-    overflow:scroll;
+    overflow-x: scroll;
     
     
 }
