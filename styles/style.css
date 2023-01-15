@@ -208,9 +208,9 @@ transition: 0.5s;
     margin: 15px -15px 20px 140px;
     padding: 2px 35px;
     width: 420px;
-    text-overflow: ellipsis;
-    overflow: auto;
+    
 }
+
 
 .box_for_childs , .section-three-description{
     text-overflow: ellipsis;
