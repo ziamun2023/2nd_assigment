@@ -208,13 +208,15 @@ transition: 0.5s;
     margin: 15px -15px 20px 140px;
     padding: 2px 35px;
     width: 420px;
+    text-overflow: ellipsis;
+    overflow:scroll;
+    
     
 }
 
 
  .section-three-description{
-    text-overflow: ellipsis;
-    overflow: scroll;
+  
 }
 .child-title{
     padding: 20px 0;
